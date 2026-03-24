@@ -4,7 +4,7 @@
 
 As someone who has actively explored opportunities in the data field, I noticed a gap in structured insights around job trends, required skills, and salary benchmarks. This project aims to bridge that gap by analyzing real-world data to understand what drives higher-paying roles in the data industry.
 
-\---
+---
 
 ## ❓ Key Questions Explored
 
@@ -15,7 +15,7 @@ To gain clarity on the data job landscape, I focused on the following:
 3. **Which skills are most in-demand among data professionals?**
 4. **What is the salary impact of the top skills?**
 
-\---
+---
 
 ## 🛠️ Tools \& Techniques Used
 
@@ -27,7 +27,7 @@ This analysis was carried out using the following Excel capabilities:
 * **Power Query (ETL)**
 * **Power Pivot (Data Modeling)**
 
-\---
+---
 
 ## 📂 Dataset Information
 
@@ -40,7 +40,7 @@ The dataset used in this project contains job-related data from 2023 till Decemb
 * Geographic Locations
 * Required Skills
 
-\---
+---
 
 # 1️⃣ Do More Skills Lead to Better Pay?
 
@@ -54,7 +54,7 @@ The dataset used in this project contains job-related data from 2023 till Decemb
   * One for overall job data
   * One mapping job IDs to skills
 
-\---
+---
 
 ### 🔄 Data Transformation
 
@@ -66,10 +66,14 @@ The dataset used in this project contains job-related data from 2023 till Decemb
 
 📸 **Preview of transformed data:**
 
-* \[Add Image – Data Jobs Table]
-* \[Add Image – Job Skills Table]
+* Data Jobs Table:  
+  <img width="244" height="312" alt="2_Project_Analysis_Screenshot1" src="https://github.com/user-attachments/assets/789d88e4-28af-4e8a-b424-f273375c011d" />
 
-\---
+* Job Skills Table:  
+  <img width="243" height="328" alt="2_Project_Analysis_Screenshot2" src="https://github.com/user-attachments/assets/026ace0e-3c4e-4468-b847-863bd220f890" />
+
+
+---
 
 ### 🔗 Data Loading
 
@@ -77,10 +81,14 @@ The dataset used in this project contains job-related data from 2023 till Decemb
 
 📸 **Loaded data views:**
 
-* \[Add Image – Loaded Jobs Data]
-* \[Add Image – Loaded Skills Data]
+* Loaded Jobs Data  
+  <img width="1916" height="649" alt="2_Project_Analysis_Screenshot3" src="https://github.com/user-attachments/assets/703c275d-254b-40cd-b543-8bfa5e6c5e98" />
 
-\---
+* Loaded Skills Data  
+  <img width="1914" height="702" alt="2_Project_Analysis_Screenshot4" src="https://github.com/user-attachments/assets/99b11679-4e8d-44ef-87eb-8bacc3ef106e" />
+
+
+---
 
 ## 📊 Findings
 
@@ -92,15 +100,15 @@ The dataset used in this project contains job-related data from 2023 till Decemb
 
 📊 **Visualization:**
 
-* \[Insert Chart Image Here]
+<img width="1333" height="622" alt="2_Project_Analysis_Chart1" src="https://github.com/user-attachments/assets/7bd00fb6-f06d-484c-aaaa-a64cc46a91fa" />
 
-\---
+---
 
 ### 🤔 Key Takeaway
 
 Building a diverse and relevant skill set can significantly improve earning potential in data-related careers.
 
-\---
+---
 
 # 2️⃣ Salary Comparison Across Regions
 
@@ -111,28 +119,29 @@ Building a diverse and relevant skill set can significantly improve earning pote
 * Created a PivotTable using the Data Model
 * Fields used:
 
-  * Rows → `job\_title\_short`
-  * Values → `salary\_year\_avg`
+  * Rows → `job_title_short`
+  * Values → `salary_year_avg`
 
-\---
+---
 
 ### 🧮 DAX Measures
 
-**Median Salary (Overall):**
+**Median Salary (Overall):**  
 Median Salary := MEDIAN(data\_jobs\_all\[salary\_year\_avg])
 
 
 
 **Median Salary (United States):**
 
+```
 =CALCULATE(
 MEDIAN(data\_jobs\_all\[salary\_year\_avg]),
 data\_jobs\_all\[job\_country] = "United States"
 )
+```
 
 
-
-\---
+---
 
 ## 📊 Findings
 
@@ -144,9 +153,9 @@ data\_jobs\_all\[job\_country] = "United States"
 
 📊 **Visualization:**
 
-* \[Insert Chart Image Here]
+<img width="1229" height="388" alt="2_Project_Analysis_Chart2" src="https://github.com/user-attachments/assets/3a17931d-31fd-4066-83b1-078f45c738d1" />
 
-\---
+---
 
 ### 🤔 Key Takeaway
 
@@ -165,9 +174,9 @@ Geographical location plays a major role in salary expectations and should be co
 
 📸 **Data Model View:**
 
-* \[Insert Data Model Image]
+* <img width="1788" height="1264" alt="2_Project_Analysis_Screenshot5" src="https://github.com/user-attachments/assets/ded7bb96-38ca-4f70-bc49-fe236d706b0f" />
 
-\---
+---
 
 ### ⚙️ Power Pivot Usage
 
@@ -179,9 +188,9 @@ Geographical location plays a major role in salary expectations and should be co
 
 📸 **Power Pivot Interface:**
 
-* \[Insert Screenshot Here]
+* <img width="1918" height="742" alt="2_Project_Analysis_Screenshot6" src="https://github.com/user-attachments/assets/66956843-bdbc-44a2-9e50-792581c22cbe" />
 
-\---
+---
 
 ## 📊 Findings
 
@@ -193,9 +202,9 @@ Geographical location plays a major role in salary expectations and should be co
 
 📊 **Visualization:**
 
-* \[Insert Chart Image Here]
+*<img width="913" height="522" alt="2_Project_Analysis_Chart3" src="https://github.com/user-attachments/assets/0e8cafdf-3552-44c8-ae47-50c522b244fd" />
 
-\---
+---
 
 ### 🤔 Key Takeaway
 
@@ -231,9 +240,9 @@ Focusing on core technical skills along with cloud technologies can significantl
 
 📊 **Visualization:**
 
-* \[Insert Chart Image Here]
+* <img width="1037" height="563" alt="2_Project_Analysis_Chart4" src="https://github.com/user-attachments/assets/5e0e3ea1-8f58-412f-957a-43888a2ff9bf" />
 
-\---
+---
 
 ### 🤔 Key Takeaway
 
