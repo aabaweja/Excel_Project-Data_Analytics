@@ -210,7 +210,7 @@ Geographical location plays a major role in salary expectations and should be co
 
 Focusing on core technical skills along with cloud technologies can significantly boost employability in the data domain.
 
-\---
+---
 
 # 4️⃣ Salary Impact of Top Skills
 
@@ -228,7 +228,7 @@ Focusing on core technical skills along with cloud technologies can significantl
 * Primary Axis → Median Salary (Column Chart)
 * Secondary Axis → Skill Demand (Line Chart)
 
-\---
+---
 
 ## 📊 Findings
 
@@ -248,7 +248,7 @@ Focusing on core technical skills along with cloud technologies can significantl
 
 Investing time in learning high-impact technical skills can directly influence earning potential.
 
-\---
+---
 
 # 🧾 Conclusion
 
@@ -262,11 +262,10 @@ The analysis highlights:
 
 Overall, this project serves as a practical reference for anyone looking to better understand the data job ecosystem and align their skill development with market demand.
 
-\---
+---
 
 ## 🔗 Additional Links
 
 * 📊 **Project Dashboard:** \[Insert Dashboard Link Here]
 * 💻 **GitHub Repository:** \[Insert Repo Link Here]
 * 📷 **Project Screenshots:** \[Insert Image Folder Link Here]
-
